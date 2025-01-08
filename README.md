@@ -32,7 +32,7 @@
 <ol>
     <li><strong>Clone the repository</strong>:
         <pre><code>git clone &lt;repository-url&gt;
-        <h2>Usage</h2>
+<h2>Usage</h2>
 <p>Open the Streamlit app in your browser. Input customer details such as Credit Score, Age, Balance, etc., and click <strong>Predict</strong> to get the churn prediction (Yes/No).</p>
 
 <h2>Files</h2>

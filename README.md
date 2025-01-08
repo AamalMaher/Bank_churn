@@ -38,3 +38,22 @@
     <li>Meta-model: Combines predictions from base models for the final output.</li>
 </ul>
 
+---
+## Streamlit deployment
+**streamlit app Predict customer churn with precision and help banks retain their most valuable clients using our advanced Customer Bank Churn Predictor**
+### example for churn customer
+
+---
+
+## How To Use
+
+Follow these steps to set up and run Bank Customer Churn Prediction on your local machine.
+
+### 1. Clone the repository:
+
+```bash
+git clone https://github.com/rahaffayez/AI2_Project.git
+cd AI2_Project
+``` 
+
+

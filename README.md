@@ -17,31 +17,24 @@
 </ul>
 
 
-<p>The model was fine-tuned using GridSearch to optimize the hyperparameters, ensuring the best possible performance for the stacking ensemble.</p>
+## Steps  
+
+1. **Data Preprocessing**  
+   - Cleaned the data by handling missing values and inconsistencies.  
+   - Encoded categorical variables (e.g., Geography, Gender) to prepare them for model training.  
+
+2. **Model Training**  
+   - Used the **Stacking Model** to train the model with the training data.  
+
+3. **Hyperparameter Tuning**  
+   - Tuned hyperparameters of the XGBoost model using **GridSearchCV** to achieve optimal performance.  
+
+4. **Evaluation**  
+   - Evaluated the model using metrics such as **AUC**, **Confusion Matrix**, and a **classification report** to ensure high accuracy.  
 
 <h3>Models Used in Stacking:</h3>
 <ul>
     <li>Base models (e.g., Logistic Regression, Decision Trees, Random Forest, etc.)</li>
     <li>Meta-model: Combines predictions from base models for the final output.</li>
 </ul>
-
-<h2>Deployment</h2>
-<p>The model is deployed using <strong>Streamlit</strong>, providing an interactive web interface for real-time churn predictions.</p>
-
-<h2>Installation and Setup</h2>
-<ol>
-    <li><strong>Clone the repository</strong>:
-        <pre><code>git clone &lt;repository-url&gt;
-<h2>Usage</h2>
-<p>Open the Streamlit app in your browser. Input customer details such as Credit Score, Age, Balance, etc., and click <strong>Predict</strong> to get the churn prediction (Yes/No).</p>
-
-<h2>Files</h2>
-<ul>
-    <li><code>app.py</code>: Streamlit application file.</li>
-    <li><code>stacking_model.pkl</code>: Pre-trained stacking model saved with <code>joblib</code>.</li>
-    <li><code>requirements.txt</code>: Python package requirements.</li>
-</ul>
-
-<h2>Results</h2>
-<p>The stacking model achieved an accuracy of <strong>84%</strong> on the test data.</p>
 

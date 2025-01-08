@@ -56,4 +56,20 @@ git clone https://github.com/rahaffayez/AI2_Project.git
 cd AI2_Project
 ``` 
 
+### 2. nstall Dependencies:
+- Install the required Python libraries by running the following command:
+
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Run the Streamlit App:
+- Start the app by executing:
+
+```bash
+ streamlit run app.py
+```
+
+
+
 

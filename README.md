@@ -52,8 +52,8 @@ Follow these steps to set up and run Bank Customer Churn Prediction on your loca
 ### 1. Clone the repository:
 
 ```bash
-git clone https://github.com/rahaffayez/AI2_Project.git
-cd AI2_Project
+git clone https://github.com/AamalMaher/Bank_churn.git
+cd Bank_churn
 ``` 
 
 ### 2. nstall Dependencies:
